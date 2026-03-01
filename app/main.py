@@ -46,4 +46,7 @@ class FullStackDeveloper(BackendDeveloper, FrontendDeveloper):
         self.create_powerful_api()
         self.create_awesome_web_page()
 
-#MateAcademy AI Mentor - please check it that why i used super() in diamond way -> python goes through all classess according to mro so init is executed once and all skills are added with no duplicate of code
+#MateAcademy AI Mentor - please check it that why i used super()
+# in diamond way -> python goes through all
+# classess according to mro so init is executed once and
+# all skills are added with no duplicate of code
